@@ -1,0 +1,7 @@
+node_modules/
+data/raw/
+data/processed/
+train/artifacts/
+__pycache__/
+*.pyc
+.venv/

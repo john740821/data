@@ -1,0 +1,16 @@
+{
+  "name": "thai-road-accident-risk",
+  "version": "1.0.0",
+  "description": "ดึงข้อมูลอุบัติเหตุ (ThaiRSC/RTDDI), ลักษณะเส้นทาง, สภาพอากาศ, เทศกาล -> สร้าง training set จังหวัด x วัน",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "ingest": "node src/cli.js ingest",
+    "build": "node src/cli.js build",
+    "all": "node src/cli.js all",
+    "provinces": "node src/cli.js provinces"
+  }
+}
